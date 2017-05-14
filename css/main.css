@@ -1,1 +1,29 @@
 /* Agrega aquí tus estilos*/
+
+body{
+	background-image: url("../img/zen1.jpg");
+	color:blue;
+	margin: 0 auto;
+}
+
+header h1{
+	
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-size: 40px;
+}
+header h2{
+	font-family: 'Lobster';
+	text-align: center;
+	color: black;
+}
+header{
+	background-image: url("../img/zen2.jpg");
+	font-family: 'Baloo';
+}
+.summary{
+	color:white;
+	background-color:rgba(20,20,70,0.5); 
+	margin: 10px 1000px 20px 10px;
+}
