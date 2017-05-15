@@ -25,6 +25,12 @@ header{
 	background-size: 100%;
 }
 
+h3{
+	font-family: 'Lobster';
+}
+p{
+	font-family: 'Baloo';
+}
 .summary{
 	color:white;
 	background-color:rgba(20,20,70,0.5); 
