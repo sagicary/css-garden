@@ -28,6 +28,7 @@ header{
 .summary{
 	color:white;
 	background-color:rgba(20,20,70,0.5); 
+	position: relative;
 	/*margin: 10px 1000px 20px 10px;*/
 	width: 900px;
 	border-radius: 12px;
@@ -47,6 +48,7 @@ header{
 }
 .preamble{
   width: 500px;
+ position: relative;
   margin: 20px auto;
   padding: 10px;
  border-radius: 12px;
@@ -72,13 +74,103 @@ header{
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-#zen-participation{
+div #zen-participation{
+	padding-left: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.requirements{
+	width: 100%;
+  	padding: 10px;
+	background-image: url(../img/zen3.jpg);
+ 	border: solid pink 5px;
+  	color: #222;
+	text-shadow: 0px 2px 3px #555;
+    float: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sidebar{
+	width: 100%;
+	border-radius: 23px;
+	background-color: whitesmoke;
+  	margin: 10px auto;
+  	margin-top: 10px;
+  	padding: 30px;
+  	border: solid lightblue 10px;
+  	margin-left: 10px;
+    float: right;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.participation{
 	width: 400px;
   	margin: 10px auto;
-  	padding: 30px;
+  	padding: 10px;
   	border: solid blue 10px;
-  	margin-left: 450px;
-    float: right;
+  	margin-left: 10px;
+    float: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+.benefits{
+	width: 400px;
+  	margin: 10px auto;
+  	padding: 10px;
+  	border: solid blue 10px;
+  	margin-left: 10px;
+    float: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+footer{
+	margin-bottom: 10px;
+	float: left;
+}
+.design-selection{
+	color: black;
+	background-color: lightblue;
+		width: 400px;
+  	margin: 10px auto;
+  	padding: 10px;
+  	border: solid blue 10px;
+  	margin-left: 10px;
+    float: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.design-archives{
+		color: black;
+		background-color: pink;
+		width: 300px;
+  	margin: 10px auto;
+  	padding: 10px;
+  	border: solid blue 10px;
+  	margin-left: 20px;
+    float: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+.zen-resources{
+	color: black;
+		width: 400px;
+		background-color: lightblue;
+  	margin: 10px auto;
+  	padding: 10px;
+  	border: solid blue 10px;
+  	margin-left: 20px;
+    float: left;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
