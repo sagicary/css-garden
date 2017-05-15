@@ -6,24 +6,80 @@ body{
 	margin: 0 auto;
 }
 
-header h1{
-	
+header h1{	
 	text-align: center;
 	margin: 0 auto;
-	color: white;
+	color: lightblue;
 	font-size: 40px;
 }
+
 header h2{
 	font-family: 'Lobster';
 	text-align: center;
-	color: black;
+	color: white;
 }
+
 header{
-	background-image: url("../img/zen2.jpg");
+	background-image: url("../img/zen4.png");
 	font-family: 'Baloo';
+	background-size: 100%;
 }
+
 .summary{
 	color:white;
 	background-color:rgba(20,20,70,0.5); 
-	margin: 10px 1000px 20px 10px;
+	/*margin: 10px 1000px 20px 10px;*/
+	width: 900px;
+	border-radius: 12px;
+	text-align: center;
+	/*
+	left: 200px;
+	right: 200px auto;
+	top: 113px;
+	position: absolute;*/
+  margin: 20px auto;
+  padding: 10px;
+   border: solid black 5px;
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+ 
+}
+.preamble{
+  width: 500px;
+  margin: 20px auto;
+  padding: 10px;
+ border-radius: 12px;
+ background-color: lightblue;
+ border: solid pink 5px;
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#zen-supporting{
+	
+}
+
+#zen-explanation{
+	width: 400px;
+  	margin: 10px auto;
+  	padding: 30px;
+  	border: solid blue 10px;
+  	margin-left: 20px;
+  	float: left;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#zen-participation{
+	width: 400px;
+  	margin: 10px auto;
+  	padding: 30px;
+  	border: solid blue 10px;
+  	margin-left: 450px;
+    float: right;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
